@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+}
+#parteDeArriba {
+  background-color: rgb(145, 224, 255);
+  height: 170px;
+  font-size: 20px;
+}
+#parteDeArriba ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+#parteDeArriba h1 {
+  display: flex;
+  justify-content: center;
+}
+#parteDeArriba ul,
+li {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+#temperatura {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+#container h2,p, img{
+  margin-top: 25px;
+}
+#container div{
+  background-color: whitesmoke;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
